@@ -2,7 +2,7 @@ Name: hunspell-is
 Summary: Icelandic hunspell dictionaries
 %define upstreamid 20090823
 Version: 0.%{upstreamid}
-Release: 5%{?dist}
+Release: 6%{?dist}
 Source: http://extensions.services.openoffice.org/files/2829/1/Icelandic-dict-2009-08-23.oxt
 Group: Applications/Text
 URL: http://extensions.services.openoffice.org/project/dict-is
@@ -44,6 +44,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20090823-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20090823-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
